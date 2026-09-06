@@ -1,2 +1,1 @@
-
-document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('form[data-local-form]').forEach(f=>{f.addEventListener('submit',e=>{e.preventDefault();const s=f.querySelector('.form-status');s.textContent='تم تجهيز النموذج. سنربط الإرسال المباشر بالبريد في الخطوة التالية.'})})});
+document.querySelector('.menu-btn')?.addEventListener('click',function(){const n=document.querySelector('.nav-links');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))});document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.nav-links')?.classList.remove('open')));

@@ -1,3 +1,2 @@
 # Helmy Website
-
-Static Arabic RTL website prepared for free deployment on Cloudflare Pages.
+Static Arabic RTL website for GitHub Pages.
